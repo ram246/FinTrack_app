@@ -1,0 +1,56 @@
+
+input.search_ticker {
+    text-align: center;
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+div.ticker_container {
+    background:white;
+    box-shadow: 1px 1px 0 lightgrey;
+    width: 70%;
+    margin: 5px auto 4px auto;
+    padding: 1em;
+    text-align: center;
+}
+
+div.ticker_container:hover {
+    background-color: #3e8e41;
+    color: white;
+    cursor: pointer;
+}
+
+.SearchTicker {
+    display: flex;
+    justify-content: center;
+}
+
+span.delete_btn {
+    float:left;
+    margin-top: 20px;
+}
+
+span.right {
+    float: right;
+}
+
+span.left {
+    font-weight: bold;
+    float:left;
+}
+
+span.qty, span.buyatprice, span.profitloss {
+    font-size: 70%;
+}
+
+button.btn_search {
+    margin: 5px 5px 5px 5px;
+    border-radius: 50%;
+}
+
+button.btn_search:hover {
+    opacity:80%;
+    cursor: pointer;
+}

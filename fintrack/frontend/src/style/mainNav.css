@@ -1,0 +1,117 @@
+#nav {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  align-content: space-between;
+}
+
+.user_access {
+  margin-left: auto;
+  padding: 10px 5px;
+}
+
+.signout_button {
+  padding: 3px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: wheat;
+  background-color: rgb(73, 73, 73);
+  cursor: pointer;
+}
+
+.signout_button:hover {
+  background-color: wheat;
+  color: rgb(73, 73, 73);
+}
+
+.login_signup {
+  margin-left: auto;
+  padding: 12px 5px;
+  display: flex;
+}
+
+.login_form {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.login_form > input {
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 30%;
+  border: 0px;
+  border-bottom: 2px black solid;
+}
+
+.login_button {
+  padding: 3px;
+  font-size: 19px;
+  border-radius: 5px;
+  color: wheat;
+  background-color: rgb(73, 73, 73);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.login_button:hover {
+  background-color: wheat;
+  color: rgb(73, 73, 73);
+}
+
+.signup_button {
+  padding: 3px;
+  font-size: 19px;
+  border-radius: 5px;
+  color: wheat;
+  background-color: rgb(73, 73, 73);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.signup_button:hover {
+  background-color: wheat;
+  color: rgb(73, 73, 73);
+}
+
+.fintrack_logo {
+  margin-left: 50px;
+  background-image: url("../media/fintrack_logo.png");
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 50px;
+}
+
+.side_nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  padding-top: 70px;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 150px;
+  background-color: rgb(73, 73, 73);
+
+  height: 100%;
+}
+
+.menu_item {
+  padding: 15px 5px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: middle;
+  text-align: left;
+  color: wheat;
+  background-color: rgb(73, 73, 73);
+  text-decoration: none;
+}
+
+.menu_item:hover {
+  background-color: wheat;
+  color: rgb(73, 73, 73);
+}
